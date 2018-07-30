@@ -1,0 +1,33 @@
+﻿<Page
+    x:Class="CheckMate.Results"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CheckMate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Silver" Margin="0,0,0,0">
+        <Image x:ConnectionId='2' x:Name="imgMatePic" Source="assets\joffrey.jpg" HorizontalAlignment="Left" Height="109" Margin="61,191,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,325,0,0" TextWrapping="Wrap" Text="Relationship" VerticalAlignment="Top" Height="25" Width="207"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,385,0,0" TextWrapping="Wrap" Text="Responsibility" VerticalAlignment="Top" Width="167"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,445,0,0" TextWrapping="Wrap" Text="Faithfulness" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,505,0,0" TextWrapping="Wrap" Text="Crazy" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,565,0,0" TextWrapping="Wrap" Text="Criminal" VerticalAlignment="Top"/>
+        <Image HorizontalAlignment="Left" Height="111" Source="assets/logo.jpg" Margin="0,25,0,0" VerticalAlignment="Top" Width="360"/>
+        <Image x:ConnectionId='3' x:Name="imgRelationship" Source="assets\6star.jpg" HorizontalAlignment="Left" Height="30" Margin="61,355,0,0" VerticalAlignment="Top" Width="128" Stretch="Fill"/>
+        <Image x:ConnectionId='4' x:Name="imgResponsibility" Source="assets/6star.jpg" HorizontalAlignment="Left" Height="30" Margin="61,410,0,0" VerticalAlignment="Top" Width="128" Stretch="Fill"/>
+        <Image x:ConnectionId='5' x:Name="imgFaithfulness" Source="assets/6star.jpg" HorizontalAlignment="Left" Height="30" Margin="61,470,0,0" VerticalAlignment="Top" Width="128" Stretch="Fill"/>
+        <Image x:ConnectionId='6' x:Name="imgCrazy" Source="assets/6star.jpg" HorizontalAlignment="Left" Height="30" Margin="61,530,0,0" VerticalAlignment="Top" Width="128" Stretch="Fill"/>
+        <Image x:ConnectionId='7' x:Name="imgCriminal" Source="assets/6star.jpg" HorizontalAlignment="Left" Height="30" Margin="61,585,0,0" VerticalAlignment="Top" Width="128" Stretch="Fill"/>
+        <TextBlock x:ConnectionId='8' x:Name="txtResults" HorizontalAlignment="Left" Margin="60,138,0,0" Text="Results" TextWrapping="Wrap" VerticalAlignment="Top" Width="257"/>
+        <HyperlinkButton x:ConnectionId='9' x:Name="hplSearch" Content="Search Again" HorizontalAlignment="Left" Margin="248,139,0,0" VerticalAlignment="Top"                         Foreground="#FF1C00D7" FocusVisualPrimaryBrush="#FF201F1F" TabIndex="1" RenderTransformOrigin="0.523,2.995" />
+        <HyperlinkButton x:ConnectionId='10' x:Name="hplLogout" Content="Log out" HorizontalAlignment="Left" Margin="268,-7,0,0" VerticalAlignment="Top" Foreground="#FF105082" TabIndex="2"/>
+        <Image x:ConnectionId='11' x:Name="imgRelationship_Copy" Source="assets/6star.jpg" HorizontalAlignment="Left" Height="30" Margin="248,212,0,0" VerticalAlignment="Top" Width="93" Stretch="Fill"/>
+        <TextBlock HorizontalAlignment="Left" Margin="268,196,0,0" Text="Legend" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="256,247,0,0" Text="Bad -  Good" TextWrapping="Wrap" VerticalAlignment="Top" Width="83"/>
+
+    </Grid>
+</Page>
+
