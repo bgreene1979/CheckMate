@@ -31,13 +31,13 @@
     <AppXManifest Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-07-30T18:36:28.840</Modified>
+      <Modified>2018-07-31T23:45:29.007</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\CheckMate.exe">
       <PackagePath>entrypoint\CheckMate.exe</PackagePath>
-      <Modified>2018-07-30T18:36:27.839</Modified>
+      <Modified>2018-07-31T23:45:27.995</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\.nuget\packages\microsoft.win32.registry\4.4.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Registry.dll">
       <PackagePath>Microsoft.Win32.Registry.dll</PackagePath>
@@ -779,31 +779,31 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\CheckMate.xr.xml">
       <PackagePath>CheckMate.xr.xml</PackagePath>
-      <Modified>2018-07-30T18:18:22.025</Modified>
+      <Modified>2018-07-31T23:45:27.677</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.303</Modified>
+      <Modified>2018-07-31T23:45:27.717</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Add_Mate.xbf">
       <PackagePath>Add_Mate.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.303</Modified>
+      <Modified>2018-07-31T23:45:27.718</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Home.xbf">
       <PackagePath>Home.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.304</Modified>
+      <Modified>2018-07-31T23:45:27.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.305</Modified>
+      <Modified>2018-07-31T23:45:27.719</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Register.xbf">
       <PackagePath>Register.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.306</Modified>
+      <Modified>2018-07-31T23:45:27.720</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Results.xbf">
       <PackagePath>Results.xbf</PackagePath>
-      <Modified>2018-07-30T18:36:27.306</Modified>
+      <Modified>2018-07-31T23:45:27.721</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -816,7 +816,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\hp\documents\visual studio 2017\Projects\CheckMate\CheckMate\bin\x86\Debug\Core\CheckMate.exe">
       <PackagePath>CheckMate.exe</PackagePath>
-      <Modified>2018-07-30T18:36:28.827</Modified>
+      <Modified>2018-07-31T23:45:28.999</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

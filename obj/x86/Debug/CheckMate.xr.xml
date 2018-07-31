@@ -3,10 +3,9 @@
   <Roots.RootTypes>
     <RootType FullName="Windows.UI.Xaml.Application" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
-      <RootProperty Name="Background" />
       <RootProperty Name="Content" />
+      <RootProperty Name="Background" />
     </RootType>
-    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="RenderTransformOrigin" />
@@ -80,6 +79,7 @@
       <RootProperty Name="TabIndex" />
     </RootType>
     <RootType FullName="CheckMate.MainPage" />
+    <RootType FullName="Microsoft.Xaml.DirectUI.ProxyTypes.ThemeResourceExtension" />
     <RootType FullName="CheckMate.Register" />
     <RootType FullName="CheckMate.Results" />
   </Roots.RootTypes>

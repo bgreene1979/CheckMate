@@ -55,7 +55,7 @@ namespace CheckMate
 
         private async void btnSubmit_Click(object sender, RoutedEventArgs e)
         {
-            Mate newMate = new Mate
+            Mate NewMate = new Mate
             {   
                 Fname = txtFirstName.Text,
                 Lname = txtLname.Text,
@@ -103,32 +103,45 @@ namespace CheckMate
             //check if mate exists if it does then update, if not then add
             Mate CurrentMate = new Mate();
             
-            CurrentMate = await CheckForMate(newMate);
+            CurrentMate = await CheckForMate(NewMate);
 
             if(CurrentMate.ID is null)
             {
                 //insert mate 
-                newMate.ID = await InsertMate(newMate);
+                NewMate.ID = await InsertMate(NewMate);
                 //insert Relationship Rating
-                await InsertRate(RelRate, newMate);
+                await InsertRate(RelRate, NewMate);
 
                 //insert Responsiblity Rating
-                await InsertRate(RespRate, newMate);
+                await InsertRate(RespRate, NewMate);
 
                 //insert Faithfulness Rating
-                await InsertRate(FaithRate, newMate);
+                await InsertRate(FaithRate, NewMate);
 
                 //insert Crazy Rating
-                await InsertRate(CrazyRate, newMate);
+                await InsertRate(CrazyRate, NewMate);
 
                 //insert Criminal Rating
-                await InsertRate(CrimRate, newMate);
+                await InsertRate(CrimRate, NewMate);
 
 
             }
             else
             {
-                //update ratings and possibly pic
+                //insert Relationship Rating
+                await InsertRate(RelRate, CurrentMate);
+
+                //insert Responsiblity Rating
+                await InsertRate(RespRate, CurrentMate);
+
+                //insert Faithfulness Rating
+                await InsertRate(FaithRate, CurrentMate);
+
+                //insert Crazy Rating
+                await InsertRate(CrazyRate, CurrentMate);
+
+                //insert Criminal Rating
+                await InsertRate(CrimRate, CurrentMate);
             }
 
 

@@ -5,8 +5,7 @@
     xmlns:local="using:CheckMate"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    mc:Ignorable="d">
 
     <Grid Background="Silver" RenderTransformOrigin="0.375,0.496">
         <TextBox x:ConnectionId='2' x:Name="txtFirstName" HorizontalAlignment="Left" Margin="143,166,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="127" TabIndex="1" Height="25" FontSize="9" MinHeight="10"/>
@@ -22,16 +21,17 @@
         <TextBox x:ConnectionId='5' x:Name="txtState" HorizontalAlignment="Left" Margin="144,270,0,0" Text="" VerticalAlignment="Top" Width="127" Height="25" FontSize="9" MinHeight="10" TabIndex="4"/>
         <TextBox x:ConnectionId='6' x:Name="txtZip" HorizontalAlignment="Left" Margin="143,304,0,0" Text="" VerticalAlignment="Top" Width="127" Height="25" FontSize="9" MinHeight="10" TabIndex="5"/>
         <Button x:ConnectionId='7' x:Name="btnSubmit" Content="Submit" HorizontalAlignment="Left" Margin="160,597,0,0" VerticalAlignment="Top"                        />
-        <RatingControl x:ConnectionId='8' x:Name="rtnRelationship" HorizontalAlignment="Left"  Margin="152,356,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="6"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,358,0,0" Text="Relationship" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-        <RatingControl x:ConnectionId='9' x:Name="rtnResponsibility" HorizontalAlignment="Left" Margin="151,393,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="7"/>
-        <RatingControl x:ConnectionId='10' x:Name="rtnCrazy" HorizontalAlignment="Left" Margin="152,462,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="8"/>
-        <RatingControl x:ConnectionId='11' x:Name="rtnFaithfulness" HorizontalAlignment="Left" Margin="150,427,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="8"/>
-        <RatingControl x:ConnectionId='12' x:Name="rtnCriminal" HorizontalAlignment="Left" Margin="150,499,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="9"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,401,0,0" Text="Responsibility" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,435,0,0" Text="Faithfulness" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,472,0,0" Text="Crazy" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
-        <TextBlock HorizontalAlignment="Left" Margin="52,503,0,0" Text="Criminal" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <RatingControl x:ConnectionId='8' x:Name="rtnRelationship" HorizontalAlignment="Left"  Margin="152,396,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="6"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,398,0,0" Text="Relationship" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <RatingControl x:ConnectionId='9' x:Name="rtnResponsibility" HorizontalAlignment="Left" Margin="151,433,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="7"/>
+        <RatingControl x:ConnectionId='10' x:Name="rtnCrazy" HorizontalAlignment="Left" Margin="152,502,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="8"/>
+        <RatingControl x:ConnectionId='11' x:Name="rtnFaithfulness" HorizontalAlignment="Left" Margin="150,467,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="8"/>
+        <RatingControl x:ConnectionId='12' x:Name="rtnCriminal" HorizontalAlignment="Left" Margin="150,539,0,0" VerticalAlignment="Top" MaxRating="6" TabIndex="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,441,0,0" Text="Responsibility" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,475,0,0" Text="Faithfulness" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,512,0,0" Text="Crazy" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="52,543,0,0" Text="Criminal" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="9"/>
+        <TextBlock HorizontalAlignment="Left" Margin="177,373,0,0" Text="1 - 6: 1 = bad 6 = good" TextWrapping="Wrap" VerticalAlignment="Top" Width="101" FontSize="8"/>
 
     </Grid>
 </Page>
